@@ -1,0 +1,53 @@
+ 1- almohamdy@almohamdy:~$ pwd
+
+/home/almohamdy
+
+2&3- almohamdy@almohamdy:~$ mkdir SAMPLE
+
+almohamdy@almohamdy:~$ cd SAMPLE
+
+almohamdy@almohamdy:~/SAMPLE$ mkdir HELLO
+
+4&5- almohamdy@almohamdy:~$ mkdir /home/almohamdy/Hello
+
+almohamdy@almohamdy:~$ rmdir /home/almohamdy/Hello
+
+6- almohamdy@almohamdy:~$ mkdir -p SAMPLE/HELLO
+
+7- rm : to remove a file not directory
+   rmdir: to remove a empty directory 
+
+8 - put (.) before the name 
+
+9- almohamdy@almohamdy:~$ mkdir dir
+
+almohamdy@almohamdy:~$ mkdir docs
+
+almohamdy@almohamdy:~$ mkdir -p dir/dir1
+
+almohamdy@almohamdy:~$ mkdir -p dir/dir2
+
+almohamdy@almohamdy:~$ touch /home/almohamdy/dir/dir1/file1
+
+almohamdy@almohamdy:~$ mkdir docs/WS-iTi
+
+almohamdy@almohamdy:~$ 
+
+10- absolute : /home/user/docs/WS-iTi
+    relative : ~$ cd docs
+             : ~/docs$ cd WS-iTi
+
+11- 1: cd 
+    2: cd ~
+
+12- almohamdy@almohamdy:~$ cat >my_code.text
+
+ahmed mohamed abdallah iti
+
+almohamdy@almohamdy:~$ grep -r "ahmed mohamed abdallah iti"
+
+my_code.text:ahmed mohamed abdallah iti
+
+almohamdy@almohamdy:~$ 
+
+
